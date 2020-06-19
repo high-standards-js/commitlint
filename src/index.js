@@ -9,5 +9,6 @@ const base = require('@high-standards-js/base');
     if (!packageJsonOfConfig.husky.hooks['commit-msg']) {
         packageJsonOfConfig.husky.hooks['commit-msg'] = 'commitlint -E HUSKY_GIT_PARAMS';
     }
+    
     base.writeInitiatingProjectPackageJson(packageJsonOfConfig);
 })()
