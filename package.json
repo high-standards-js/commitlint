@@ -14,7 +14,6 @@
     "husky": "4.2.5"
   },
   "devDependencies": {
-    "@high-standards-js/self": "^1.1.0",
     "@semantic-release/commit-analyzer": "8.0.1",
     "@semantic-release/release-notes-generator": "9.0.1",
     "git-authors-cli": "1.0.27",
