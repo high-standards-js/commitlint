@@ -9,6 +9,9 @@ const husky = require('@high-standards-js/husky');
     packageJsonOfConfig,
     '@commitlint/config-conventional',
   );
+
+  base.copyFileFromTemplate(__dirname, 'commitlint.config.js');
+
   packageJsonOfConfig = husky.addHookCommand(
     packageJsonOfConfig,
     'commit-msg',

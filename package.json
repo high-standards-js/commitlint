@@ -10,8 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "@high-standards-js/base": "^1.7.10",
-    "@high-standards-js/husky": "^1.1.5",
-    "husky": "4.2.5"
+    "@high-standards-js/husky": "^1.1.6"
   },
   "devDependencies": {
     "@semantic-release/commit-analyzer": "8.0.1",
